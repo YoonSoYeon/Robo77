@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "robo77", "robo77\robo77.csproj", "{ACAC7079-7D4B-4ED1-9289-77B31E7A650F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo77Server", "Robo77Server\Robo77Server.csproj", "{4F602049-FE4D-4CA9-AF43-60C64DCA4361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ACAC7079-7D4B-4ED1-9289-77B31E7A650F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACAC7079-7D4B-4ED1-9289-77B31E7A650F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACAC7079-7D4B-4ED1-9289-77B31E7A650F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F602049-FE4D-4CA9-AF43-60C64DCA4361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F602049-FE4D-4CA9-AF43-60C64DCA4361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F602049-FE4D-4CA9-AF43-60C64DCA4361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F602049-FE4D-4CA9-AF43-60C64DCA4361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

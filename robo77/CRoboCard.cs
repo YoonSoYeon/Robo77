@@ -50,15 +50,37 @@ namespace robo77
             theSizeY = aSizeY;
             switch( aType)
             {
-                case EType.ET_Number00:
-                    theNumber = 0;
+           
+                case EType.ET_Number00:                    theNumber = 0;                    break;
+                case EType.ET_Number02:                    theNumber = 2;                    break;
+                case EType.ET_Number03:                    theNumber = 3;                    break;
+                case EType.ET_Number04:                    theNumber = 4;                    break;
+                case EType.ET_Number05:
+ theNumber = 5;
                     break;
-                case EType.ET_Number02:
-                    theNumber = 2;
+                case EType.ET_Number06:
+                    theNumber = 6;
                     break;
-                case EType.ET_Number55:
-                    theNumber = 55;
+                case EType.ET_Number07:
+                    theNumber = 7;
                     break;
+                case EType.ET_Number08:
+                    theNumber = 8;
+                    break;
+                case EType.ET_Number09:
+                    theNumber = 9;
+                    break;
+                case EType.ET_Number10:
+                    theNumber = 10;
+                    break;
+
+                case EType.ET_Number11:                    theNumber = 11;                    break;
+                case EType.ET_Number22:                    theNumber = 22;                    break;
+                    case EType.ET_Number33:                    theNumber = 33;                    break;
+                    case EType.ET_Number44:                    theNumber = 44;                    break;
+                case EType.ET_Number55:                    theNumber = 55;                    break;
+
+
             }
             
         }

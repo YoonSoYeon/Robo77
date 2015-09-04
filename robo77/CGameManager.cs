@@ -88,10 +88,18 @@ namespace robo77
                 }
                 xxx = xxx + 215;
             }
+
+            totalNumber = 0;
         }
+
+        public int totalNumber;
 
         public void RemoveUserCard( int selectedIndex )
         {
+
+ //           int removeIndex = thePlayerList[ selectedIndex ];
+            totalNumber += theRoboCards[ selectedIndex ].theNumber;
+
             thePlayerList.Remove( selectedIndex );
             int tmpIndex = randomRoboCard.Dequeue();
             thePlayerList.Add( tmpIndex );

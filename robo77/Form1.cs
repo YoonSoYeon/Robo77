@@ -93,6 +93,8 @@ namespace robo77
                 CRoboCard tmpRC = cGM.theRoboCards[ playerIndex ];
                 e.Graphics.DrawImage( tmpRC.theImage, tmpRC.theX, tmpRC.theY, tmpRC.theSizeX, tmpRC.theSizeY );
             }
+
+            Text = cGM.totalNumber.ToString();
         }
 
         private void Form1_MouseDown( object sender, MouseEventArgs e )
